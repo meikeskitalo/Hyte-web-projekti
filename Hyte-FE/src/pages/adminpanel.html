@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+</head>
+
+<body>
+    <div id="app"></div>
+    <main>
+
+        <h3>Hae nappia painamalla kaikki käyttäjät</h3>
+        <!-- Painike käyttäjälistan hakemiseen -->
+        <button class="get_users">Hae käyttäjälista</button>
+
+        <div class="forms">
+            <div style="flex: 1">
+
+                <table class="styled-table">
+                    <thead>
+                        <tr>
+                            <th>User Name</th>
+                            <th>Email</th>
+                            <th>Tietoja</th>
+                            <th>Poista</th>
+                            <th>ID</th>
+                        </tr>
+                    </thead>
+                    <tbody id="taulukko" class="tbody">
+                        <!-- Tänne haetaan kaikki käyttäjät -->
+                        <!-- # Get all users -->
+                        <!-- GET http://127.0.0.1:3000/api/users -->
+                    </tbody>
+                </table>
+            </div>
+            <div style="flex: 1">
+
+                <!-- Snackbar-viestien näyttämiseen -->
+                <div id="snackbar">Some text some message..</div>
+
+                <!-- Dialogi käyttäjän tietojen näyttämiseen -->
+                <dialog class="info_dialog">
+                    <p>
+                        <!-- Tähän täytetään käyttäjän tiedot -->
+                        <!-- # Get user by id -->
+                        <!-- GET http://127.0.0.1:3000/api/users/1 -->
+                    </p>
+                    <!-- Takaisin-painike dialogin sulkemiseen -->
+                    <button autofocus>Takaisin</button>
+                </dialog>
+
+                <!-- Admin-sivun JavaScript-tiedosto -->
+                <script type="module" src="/src/js/admin.js"></script>
+</body>
+
+</html>

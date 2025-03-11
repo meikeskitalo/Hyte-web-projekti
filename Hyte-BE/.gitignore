@@ -1,0 +1,6 @@
+# list all files/folders you don't want to add version control
+.vscode
+node_modules
+.DS_Store
+.env
+docs/

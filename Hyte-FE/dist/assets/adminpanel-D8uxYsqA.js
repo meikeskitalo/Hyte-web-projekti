@@ -1,0 +1,11 @@
+import{f as c}from"./fetch-CLQ4DtwB.js";const l=document.querySelector(".info_dialog"),u=document.querySelector(".info_dialog button");u.addEventListener("click",()=>{l.close()});const d=async()=>{const n="http://localhost:3000/api/users";let o={};o={Authorization:`Bearer ${localStorage.getItem("token")}`};const e={headers:o};console.log(e);const t=await c(n,e);if(t.error){console.log("Tapahtui virhe fetch haussa!!");return}console.log(t);const r=document.querySelector(".tbody");r.innerHTML="",t.forEach(a=>{const i=document.createElement("tr");i.innerHTML=`
+          <td>${a.username}</td>
+          <td>${a.email}</td>
+          <td><button class="check" data-id="${a.user_id}">Tietoja</button></td>
+          <td><button class="del" data-id="${a.user_id}">Poista</button></td>
+          <td>${a.user_id}</td>
+        `,r.appendChild(i)}),h()},h=()=>{document.querySelectorAll(".del").forEach(s=>{s.addEventListener("click",async e=>{const t=e.target.dataset.id;await g(t),d()})});const o=document.querySelectorAll(".check");console.log(o),o.forEach(s=>{s.addEventListener("click",async e=>{console.log("Klikkasit nappulaa:",e.target);const t=e.target.dataset.id;console.log("Haetaan tietoja käyttäjälle id:llä:",t);const r=await p(t);console.log(r),r&&(l.querySelector("p").innerHTML="",l.showModal(),l.querySelector("p").innerHTML=`
+            <div>Käyttäjän ID: <span>${r.user_id}</span></div>
+            <div>Käyttäjänimi: <span>${r.username}</span></div>
+            <div>Sähköposti: <span>${r.email}</span></div>
+            <div>Rooli: <span>${r.user_level}</span></div>`)})})},p=async n=>{let o={};o={Authorization:`Bearer ${localStorage.getItem("token")}`};const e={headers:o};console.log(e);const t=await c(`http://localhost:3000/api/users/${n}`,e);return t.error?(console.error(`Error fetching item with ID ${n}:`,t.error),alert(`Error: ${t.error}`),null):t},g=async n=>{const o=`http://localhost:3000/api/users/${n}`,e={method:"DELETE",headers:{Authorization:`Bearer ${localStorage.getItem("token")}`}},t=await c(o,e);return t.error?(console.error(`Error deleting item with ID ${n}:`,t.error),alert(`Error: ${t.error}`),null):t},m=document.querySelector(".get_users");m.addEventListener("click",d);

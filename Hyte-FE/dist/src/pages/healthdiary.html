@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="/healthdiary.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Terveyspäiväkirja</title>
+  <script type="module" crossorigin src="../../assets/healthdiary-CT6BIarm.js"></script>
+  <link rel="modulepreload" crossorigin href="../../assets/fetch-CLQ4DtwB.js">
+  <link rel="modulepreload" crossorigin href="../../assets/auth-C8NNvD32.js">
+  <link rel="stylesheet" crossorigin href="../../assets/fetch-D4HNTmvd.css">
+  <link rel="stylesheet" crossorigin href="../../assets/auth-D6fszB-J.css">
+</head>
+
+<body>
+    <div id="healthdiary">
+
+        <div id="page-header">
+            <div id="profile-header">
+                <div id="topmost">
+                    <h1>Hei,</h1>
+                    <h1 id="updated-username"></h1>
+                    <!-- Käyttäjän tietojen näyttämiseen tarkoitettu painike -->
+                    <img id="about-me-button" src="../../img/info.svg" alt="">
+                    <!-- Admin-painike, näkyy vain admin-käyttäjille -->
+                    <img id="admin-button" src="../../img/admin.svg" alt="">
+                </div>
+
+                <!-- Kirjautumispainike -->
+                <img id="logout-button" src="../../img/logout.svg" alt="">
+            </div>
+
+            <div id="diary-header">
+                <h3 id="latest-entries">Päiväkirjamerkinnät</h3>
+                <!-- Painike uuden merkinnän lisäämiseen -->
+                <input type="image" src="../../img/add.svg" id="add-button"></input>
+            </div>
+        </div>
+
+        <section class="card-area">
+            <!-- yksittäinen kortti -->
+            <div class="card">
+                <!-- vasen puoli jossa kuva -->
+                <div class="card-img">
+                    <div id="delete-and-edit">
+                        <!-- Poisto- ja muokkauspainikkeet -->
+                        <img src="../../img/delete.svg" alt="" />
+                        <img src="../../img/edit.svg" alt="" />
+                    </div>
+                    <img id="diary-image" src="../../img/diary.png" alt="" />
+                </div>
+        </section>
+
+    </div>
+
+    <!-- Dialogi uuden merkinnän lisäämiseen -->
+    <dialog id="add-dialog" class="dialog">
+        <form id="add-form">
+            <label for="date">Päivämäärä</label>
+            <input type="date" id="date" name="date" required />
+
+            <label for="mood">Olotila</label>
+            <input type="text" id="mood" name="mood" required />
+
+            <label for="weight">Paino</label>
+            <input type="number" id="weight" name="weight" required />
+
+            <label for="sleep_hours">Unta (h)</label>
+            <input type="number" id="sleep_hours" name="sleep_hours" required />
+
+            <label for="notes">Kuvaus</label>
+            <input type="text" id="notes" name="notes" required />
+
+            <input name="submit" id="diary-submit" type="submit" value="Lisää päiväkirjamerkintä" class="formpost" />
+        </form>
+    </dialog>
+
+    <!-- Dialogi käyttäjän tietojen näyttämiseen ja muokkaamiseen -->
+    <dialog id="about-me-dialog" class="dialog">
+        <h2>Käyttäjätietosi</h2>
+        <form id="about-me-form">
+            <label for="username">Käyttäjänimi</label>
+            <input type="text" id="username-edit" value="" name="username" required />
+
+            <label for="password">Salasana</label>
+            <input type="password" id="password-edit" name="password" required />
+
+            <label for="email">Sähköposti</label>
+            <input type="email" id="email-edit" value="" name="email" required />
+
+            <div id="submit-buttons-me">
+                <!-- Takaisin-painike dialogin sulkemiseen -->
+                <input name="button" type="button" value="Takaisin" class="close" />
+                <!-- Päivitä tiedot -painike -->
+                <input name="submit" id="user-edit-submit" type="submit" value="Päivitä tiedot" />
+            </div>
+        </form>
+    </dialog>
+
+    <!-- Snackbar-viestien näyttämiseen -->
+    <div id="snackbar">Some text some message..</div>
+
+</body>
+
+<!-- Päiväkirjan JavaScript-tiedosto -->
+
+</html>

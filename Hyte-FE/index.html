@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="fi">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/healthdiary.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Terveyspäiväkirja</title>
+</head>
+
+<body>
+  <main>
+    <div id="welcome-screen">
+      <h2>Tervetuloa Terveyspäiväkirjaan</h2>
+
+      <!--syöttökentät sisään kirjautumiselle ja uuden käyttjän luomiselle-->
+
+      <form class="login-form">
+        <label for="username">Käyttäjänimi</label>
+        <input type="text" name="username" placeholder="nimi" minlength="3" maxlength="20" pattern="[a-zA-Z0-9äöåÄÖÅ]+"
+          required />
+        <label for="password">Salasana</label>
+        <input type="password" name="password" placeholder="salasana" minlength="8" maxlength="120" required />
+
+        <label for="email" hidden class="hidden-email">Sähköposti</label>
+        <input type="email" name="email" placeholder="sähköposti" minlength="8" maxlength="120" class="hidden-email"
+          hidden />
+
+        <input name="submit" type="submit" value="Kirjaudu sisään" class="loginform" />
+
+      </form>
+      <div id="register-checkbox-container">
+        <label for="register-checkbox">Luo uusi käyttäjä</label>
+        <input type="checkbox" name="checkbox" class="register-checkbox" />
+
+      </div>
+    </div>
+  </main>
+
+  <script type="module" src="/src/js/index.js"></script>
+  <script type="module" src="/src/js/auth.js"></script>
+
+</body>
+
+</html>
