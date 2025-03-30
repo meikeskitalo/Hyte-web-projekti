@@ -16,3 +16,22 @@ Seuraavat kirjastot on asennettu viikkotehtävien 1
 ### Asennuksen varmistus
 
 Asennuksen jälkeen suoritettiin `asennustesti.py`, joka varmisti pakettien onnistuneen asennuksen.
+
+## Viikko 2
+
+### Tehtävät
+
+Tehtävät 2, 3 ja 4 tehty.
+
+#### Tehtävä 2
+
+Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla
+
+#### Tehtävä 3
+
+Web-form -[testisivun](https://www.selenium.dev/selenium/web/web-form.html) eri kenttien muokkausta Robot Browser -frameworkilla
+
+#### Tehtävä 4
+
+Uuden päiväkirjamerkinnän lisäys terveyspäiväkirjaan Robot Browser -frameworkilla
+
