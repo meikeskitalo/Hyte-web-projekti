@@ -20,5 +20,6 @@ node_modules
 *.njsproj
 *.sln
 *.sw?
-# Lisätään .venv hakemisto .gitignoreen
+# Lisätään .venv ja .env hakemisto .gitignoreen
 .venv
+.env
