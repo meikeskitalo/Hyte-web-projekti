@@ -1,0 +1,46 @@
+{"level":30,"time":"2025-03-30T18:39:51.746Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Listening on 53735"}
+(node:29372) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-30T18:39:51.791Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:39:51.998Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-03-30T18:39:51.999Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:39:51.998Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-30T18:39:52.006Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-30T18:39:52.006Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-30T18:39:52.021Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active context"}
+{"level":30,"time":"2025-03-30T18:39:52.242Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-30T18:39:52.243Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active page"}
+{"level":30,"time":"2025-03-30T18:39:52.672Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-30T18:39:52.689Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:52.689Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2025-03-30T18:39:52.821Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:52.830Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:52.830Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2025-03-30T18:39:52.878Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:52.882Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:52.882Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2025-03-30T18:39:53.037Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:53.041Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:39:53.041Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with css=select.form-select in page."}
+{"level":30,"time":"2025-03-30T18:39:53.061Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Option entries: 4"}
+{"level":30,"time":"2025-03-30T18:39:53.061Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:39:53.061Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Selected entries: 1"}
+{"level":30,"time":"2025-03-30T18:39:53.065Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:53.065Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input[name=\"my-datalist\"] in page."}
+{"level":30,"time":"2025-03-30T18:39:53.180Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:39:53.187Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method uncheckCheckbox"}
+{"level":30,"time":"2025-03-30T18:39:53.187Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with #my-check-1 in page."}
+{"level":30,"time":"2025-03-30T18:39:53.235Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method uncheckCheckbox"}
+{"level":30,"time":"2025-03-30T18:39:53.239Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2025-03-30T18:39:53.239Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with #my-check-2 in page."}
+{"level":30,"time":"2025-03-30T18:39:53.285Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2025-03-30T18:39:53.294Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Reading multiplepart uploadFileBySelector"}
+{"level":30,"time":"2025-03-30T18:39:53.294Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input[type=\"file\"] in page."}
+{"level":30,"time":"2025-03-30T18:39:53.295Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Uploading file(s) C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\fe\\teht3\\teht3_Keywords.robot to input[type=\"file\"]"}
+{"level":30,"time":"2025-03-30T18:39:53.313Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-30T18:39:53.313Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input#my-radio-2 in page."}
+{"level":30,"time":"2025-03-30T18:39:53.352Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-03-30T18:39:53.357Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-30T18:39:53.358Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with button in page."}
+{"level":30,"time":"2025-03-30T18:39:55.453Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-03-30T18:48:48.473Z","pid":29372,"hostname":"DESKTOP-AGKHIRV","msg":"Removed page=2c66182e-93d4-4d99-869b-1f70069137e0 from context=25d67476-9729-4cab-ab50-5be70d23e6a3 page stack"}

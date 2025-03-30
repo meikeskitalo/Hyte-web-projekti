@@ -1,0 +1,45 @@
+{"level":30,"time":"2025-03-30T18:56:22.628Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Listening on 55077"}
+(node:36752) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-30T18:56:22.681Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:56:22.884Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-03-30T18:56:22.884Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:56:22.884Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-30T18:56:22.893Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-30T18:56:22.893Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-30T18:56:22.907Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active context"}
+{"level":30,"time":"2025-03-30T18:56:23.130Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-30T18:56:23.131Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active page"}
+{"level":30,"time":"2025-03-30T18:56:23.469Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-30T18:56:23.489Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.489Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2025-03-30T18:56:23.615Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.619Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.619Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2025-03-30T18:56:23.665Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.669Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.669Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2025-03-30T18:56:23.800Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.804Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:56:23.804Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with css=select.form-select in page."}
+{"level":30,"time":"2025-03-30T18:56:23.829Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Option entries: 4"}
+{"level":30,"time":"2025-03-30T18:56:23.829Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:56:23.829Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Selected entries: 1"}
+{"level":30,"time":"2025-03-30T18:56:23.837Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.837Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input[name=\"my-datalist\"] in page."}
+{"level":30,"time":"2025-03-30T18:56:23.927Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:56:23.934Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method uncheckCheckbox"}
+{"level":30,"time":"2025-03-30T18:56:23.934Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with #my-check-1 in page."}
+{"level":30,"time":"2025-03-30T18:56:23.968Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method uncheckCheckbox"}
+{"level":30,"time":"2025-03-30T18:56:23.972Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method checkCheckbox"}
+{"level":30,"time":"2025-03-30T18:56:23.972Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with #my-check-2 in page."}
+{"level":30,"time":"2025-03-30T18:56:24.017Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method checkCheckbox"}
+{"level":30,"time":"2025-03-30T18:56:24.022Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Reading multiplepart uploadFileBySelector"}
+{"level":30,"time":"2025-03-30T18:56:24.023Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input[type=\"file\"] in page."}
+{"level":30,"time":"2025-03-30T18:56:24.023Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Uploading file(s) C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\fe\\teht3\\teht3_Keywords.robot to input[type=\"file\"]"}
+{"level":30,"time":"2025-03-30T18:56:24.036Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-30T18:56:24.036Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input#my-radio-2 in page."}
+{"level":30,"time":"2025-03-30T18:56:24.081Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-03-30T18:56:24.086Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-03-30T18:56:24.086Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with button in page."}
+{"level":30,"time":"2025-03-30T18:56:26.186Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}

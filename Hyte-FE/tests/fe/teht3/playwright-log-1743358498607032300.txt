@@ -1,0 +1,47 @@
+{"level":30,"time":"2025-03-30T18:14:59.242Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Listening on 52028"}
+(node:20292) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-03-30T18:14:59.754Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:14:59.965Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-03-30T18:14:59.965Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-03-30T18:14:59.965Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-03-30T18:14:59.979Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-03-30T18:14:59.979Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-03-30T18:14:59.998Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active context"}
+{"level":30,"time":"2025-03-30T18:15:00.217Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Video path: undefined"}
+{"level":30,"time":"2025-03-30T18:15:00.218Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active page"}
+{"level":30,"time":"2025-03-30T18:15:00.888Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newPage"}
+{"level":30,"time":"2025-03-30T18:15:00.906Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:00.906Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-text\"] in page."}
+{"level":30,"time":"2025-03-30T18:15:01.083Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.088Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.088Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-password\"] in page."}
+{"level":30,"time":"2025-03-30T18:15:01.126Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.130Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.130Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"my-textarea\"] in page."}
+{"level":30,"time":"2025-03-30T18:15:01.288Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.292Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:15:01.293Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with css=select.form-select in page."}
+{"level":30,"time":"2025-03-30T18:15:01.313Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Option entries: 4"}
+{"level":30,"time":"2025-03-30T18:15:01.313Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method selectOption"}
+{"level":30,"time":"2025-03-30T18:15:01.313Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Selected entries: 1"}
+{"level":30,"time":"2025-03-30T18:15:01.317Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.317Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with input[name=\"my-datalist\"] in page."}
+{"level":30,"time":"2025-03-30T18:15:01.390Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-03-30T18:15:01.395Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method uncheckCheckbox"}
+{"level":30,"time":"2025-03-30T18:15:01.395Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with #my-check1 in page."}
+{"level":30,"time":"2025-03-30T18:15:11.402Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Error of node method  uncheckCheckbox"}
+================= Original suppressed error =================
+locator.waitFor: Timeout 10000ms exceeded.
+Call log:
+[2m  - waiting for locator('#my-check1')[22m
+
+    at uncheckCheckbox (C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\.venv\lib\site-packages\Browser\wrapper\index.js:11929:17)
+    at async PlaywrightServer.uncheckCheckbox (C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\.venv\lib\site-packages\Browser\wrapper\index.js:13132:28) {
+  name: 'TimeoutError'
+}
+=============================================================
+{"level":30,"time":"2025-03-30T18:15:11.431Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method takeScreenshot"}
+{"level":30,"time":"2025-03-30T18:15:11.431Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","Take screenshot with options: ":{"path":"C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\fe\\teht3\\browser\\screenshot\\fail-screenshot-1.png","fileType":"png","fullPage":false,"timeout":10000,"omitBackground":false}}
+{"level":30,"time":"2025-03-30T18:15:11.531Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method takeScreenshot"}
+{"level":30,"time":"2025-03-30T18:48:30.634Z","pid":20292,"hostname":"DESKTOP-AGKHIRV","msg":"Removed page=008be76e-6761-40ca-8e3a-59a383b07525 from context=ec2c825c-71bb-4bd0-8a38-8da56ca8fcf9 page stack"}
