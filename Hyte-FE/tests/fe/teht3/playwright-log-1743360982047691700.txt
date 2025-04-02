@@ -43,3 +43,4 @@
 {"level":30,"time":"2025-03-30T18:56:24.086Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
 {"level":30,"time":"2025-03-30T18:56:24.086Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with button in page."}
 {"level":30,"time":"2025-03-30T18:56:26.186Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-03-30T20:09:09.235Z","pid":36752,"hostname":"DESKTOP-AGKHIRV","msg":"Removed page=ea0bf5be-096e-4b55-a021-e2d9aec75058 from context=627f0778-b912-4451-93f5-d45b6c382294 page stack"}
