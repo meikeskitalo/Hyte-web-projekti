@@ -24,3 +24,4 @@
 {"level":30,"time":"2025-04-11T14:47:06.565Z","pid":36396,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with id=latest-entries in page."}
 {"level":30,"time":"2025-04-11T14:47:06.888Z","pid":36396,"hostname":"DESKTOP-AGKHIRV","msg":"Retrieved text for element id=latest-entries containing Päiväkirjamerkinnät"}
 {"level":30,"time":"2025-04-11T14:47:06.889Z","pid":36396,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-11T14:47:15.018Z","pid":36396,"hostname":"DESKTOP-AGKHIRV","msg":"Removed page=e83d6c48-493a-405a-8bdf-1ade44f1cd04 from context=de33a8de-d2b8-42f8-9c40-698071979198 page stack"}

@@ -27,6 +27,10 @@ Tehtävät 2, 3 ja 4 tehty.
 
 Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla.
 
+##### Testien tulokset:
+    [Raportti](frontend/outputs/teht2_output/report.html)
+    [Lokitiedosto](frontend/outputs/teht2_output/log.html)
+
 #### Tehtävä 3
 
 Web-form -[testisivun](https://www.selenium.dev/selenium/web/web-form.html) eri kenttien muokkausta Robot Browser -frameworkilla
