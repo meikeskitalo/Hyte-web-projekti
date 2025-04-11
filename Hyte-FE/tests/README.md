@@ -36,9 +36,19 @@ Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla.
 
 Web-form -[testisivun](https://www.selenium.dev/selenium/web/web-form.html) eri kenttien muokkausta Robot Browser -frameworkilla
 
+##### Testien tulokset:
+
+- [Raportti](frontend/outputs/teht3_output/report.html)
+- [Lokitiedosto](frontend/outputs/teht3_output/log.html)
+
 #### Tehtävä 4
 
 Uuden päiväkirjamerkinnän lisäys terveyspäiväkirjaan Robot Browser -frameworkilla
+
+##### Testien tulokset:
+
+- [Raportti](frontend/outputs/teht4_output/report.html)
+- [Lokitiedosto](frontend/outputs/teht4_output/log.html)
 
 ## Viikko 3
 
@@ -51,6 +61,30 @@ Tehtävät 5 ja 6 tehty.
 Tehty kirjautumistesti terveyspäiväkirjasovellukselle, joka käyttää .env-tiedostoon piilotettuja
 käyttäjätunnusta ja salasanaa.
 
+##### Testien tulokset:
+
+- [Raportti](frontend/outputs/teht5_output/report.html)
+- [Lokitiedosto](frontend/outputs/teht5_output/log.html)
+
 #### Tehtävä 6
 
 Lisätty kirjautumistestiin salasanan ja käyttäjätunnuksen kryptaus käyttäen CryptoLibrarya.
+
+##### Testien tulokset:
+
+- [Raportti](frontend/outputs/teht6_output/report.html)
+- [Lokitiedosto](frontend/outputs/teht6_output/log.html)
+
+## Viikko 4
+
+### Tehtävät
+
+Tehtävät 7 ja 8 tehty.
+
+#### Tehtävä 7
+
+Muokattu rakennetta niin, että tulosteet menevät outputs-kansiossa omiin "teht"-kansioihin.
+
+#### Tehtävä 8
+
+Tehty github.io sivu osoitteeseen: https://meikeskitalo.github.io/Hyte-web-projekti/Hyte-FE/tests/
