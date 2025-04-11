@@ -25,7 +25,7 @@ Tehtävät 2, 3 ja 4 tehty.
 
 #### Tehtävä 2
 
-Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla
+Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla.
 
 #### Tehtävä 3
 

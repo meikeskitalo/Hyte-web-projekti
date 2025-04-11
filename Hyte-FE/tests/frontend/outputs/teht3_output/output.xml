@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.9.13 on win32)" generated="2025-04-11T17:49:11.965820" rpa="false" schemaversion="5">
+<suite id="s1" name="Teht3 Browser Demo" source="C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\tests\frontend\teht3\teht3_browser_demo.robot">
+<test id="s1-t1" name="Test Web Form" line="6">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-04-11T17:49:12.150812" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\frontend\\outputs\\teht3_output\\browser\\traces\\temp\\122fe14e-38ac-4b84-9ae8-57efa29be785"}</msg>
+<msg time="2025-04-11T17:49:12.184087" level="INFO">Starting Browser process C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\.venv\lib\site-packages\Browser\wrapper\index.js using port 56220</msg>
+<msg time="2025-04-11T17:49:12.184087" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\.venv\\lib\\site-packages\\Browser\\wrapper\\index.js', '56220']</msg>
+<msg time="2025-04-11T17:49:13.540579" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\frontend\\outputs\\teht3_output\\browser\\traces\\temp\\122fe14e-38ac-4b84-9ae8-57efa29be785"}</msg>
+<arg>chromium</arg>
+<arg>headless=No</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-04-11T17:49:12.150812" elapsed="1.389767"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-04-11T17:49:14.399656" level="INFO">Successfully initialized new page object and opened url: https://www.selenium.dev/selenium/web/web-form.html</msg>
+<msg time="2025-04-11T17:49:14.399656" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>https://www.selenium.dev/selenium/web/web-form.html</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-04-11T17:49:13.560394" elapsed="0.840261"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2025-04-11T17:49:14.412394" level="INFO">Title: 'Web form'</msg>
+<arg>==</arg>
+<arg>Web form</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.401658" elapsed="0.010736"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2025-04-11T17:49:14.414774" level="INFO">Types the text 'somebody@example.com' in the given field.</msg>
+<arg>[name="my-text"]</arg>
+<arg>${Username}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.413393" elapsed="0.126282"/>
+</kw>
+<kw name="Type Secret" owner="Browser">
+<arg>[name="my-password"]</arg>
+<arg>$Password</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.540672" elapsed="0.050976"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2025-04-11T17:49:14.594206" level="INFO">Types the text 'Hello, Robot Framework!
+How are you today?' in the given field.</msg>
+<arg>[name="my-textarea"]</arg>
+<arg>${Message}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.593178" elapsed="0.159982"/>
+</kw>
+<kw name="Select Options By" owner="Browser">
+<msg time="2025-04-11T17:49:14.754166" level="INFO">Selects the option(s) 1 by attribute SelectAttribute.value from element css=select.form-select.</msg>
+<arg>css=select.form-select</arg>
+<arg>value</arg>
+<arg>1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Selects options from select element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.754166" elapsed="0.024204"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2025-04-11T17:49:14.780367" level="INFO">Types the text 'New York' in the given field.</msg>
+<arg>input[name="my-datalist"]</arg>
+<arg>${City}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.779373" elapsed="0.093794"/>
+</kw>
+<kw name="Uncheck Checkbox" owner="Browser">
+<arg>selector=#my-check-1</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Unchecks the checkbox found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.874174" elapsed="0.055088"/>
+</kw>
+<kw name="Check Checkbox" owner="Browser">
+<arg>selector=#my-check-2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Checks the checkbox or selects radio button found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.929262" elapsed="0.047244"/>
+</kw>
+<kw name="Upload File By Selector" owner="Browser">
+<arg>input[type="file"]</arg>
+<arg>C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\frontend\\teht3/${Filename}</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Uploads file from ``path`` to file input element matched by selector.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.976699" elapsed="0.014525"/>
+</kw>
+<kw name="Click With Options" owner="Browser">
+<msg time="2025-04-11T17:49:14.992220" level="INFO">Clicks the element 'input#my-radio-2'.</msg>
+<arg>input#my-radio-2</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:14.992220" elapsed="0.033150"/>
+</kw>
+<kw name="Click With Options" owner="Browser">
+<msg time="2025-04-11T17:49:15.026889" level="INFO">Clicks the element 'button'.</msg>
+<arg>button</arg>
+<arg>delay=2 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:15.025884" elapsed="2.208820"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-04-11T17:49:17.274365" level="INFO">Text: 'Received!'</msg>
+<arg>id=message</arg>
+<arg>==</arg>
+<arg>Received!</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:49:17.235711" elapsed="0.038654"/>
+</kw>
+<msg time="2025-04-11T17:49:17.277364" level="INFO">Set timeout to: 10000</msg>
+<status status="PASS" start="2025-04-11T17:49:12.149811" elapsed="5.125552"/>
+</test>
+<status status="PASS" start="2025-04-11T17:49:11.974157" elapsed="5.305210"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Teht3 Browser Demo" id="s1" pass="1" fail="0" skip="0">Teht3 Browser Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

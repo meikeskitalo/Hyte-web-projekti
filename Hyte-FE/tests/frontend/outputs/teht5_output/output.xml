@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.2.2 (Python 3.9.13 on win32)" generated="2025-04-11T17:51:33.325622" rpa="false" schemaversion="5">
+<suite id="s1" name="Teht5 Omabrowser Demo" source="C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\tests\frontend\teht5\teht5_omabrowser_demo.robot">
+<test id="s1-t1" name="Test Web Form" line="6">
+<kw name="New Browser" owner="Browser">
+<msg time="2025-04-11T17:51:33.510590" level="INFO">{"browser": "chromium", "headless": false, "chromiumSandbox": false, "devtools": false, "handleSIGHUP": true, "handleSIGINT": true, "handleSIGTERM": true, "slowMo": 0.0, "timeout": 30000.0, "tracesDir": "C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\frontend\\outputs\\teht5_output\\browser\\traces\\temp\\b25660c6-b810-4314-b128-3c5d7dd2fd13"}</msg>
+<msg time="2025-04-11T17:51:33.547631" level="INFO">Starting Browser process C:\Users\Mei\Documents\Hyte-web-sovelluskehitys-projekti\Hyte-FE\.venv\lib\site-packages\Browser\wrapper\index.js using port 56308</msg>
+<msg time="2025-04-11T17:51:33.547631" level="INFO">Node startup parameters: ['node', 'C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\.venv\\lib\\site-packages\\Browser\\wrapper\\index.js', '56308']</msg>
+<msg time="2025-04-11T17:51:34.926119" level="INFO">Successfully created browser with options: {"browser":"chromium","headless":false,"chromiumSandbox":false,"devtools":false,"handleSIGHUP":true,"handleSIGINT":true,"handleSIGTERM":true,"slowMo":0,"timeout":30000,"tracesDir":"C:\\Users\\Mei\\Documents\\Hyte-web-sovelluskehitys-projekti\\Hyte-FE\\tests\\frontend\\outputs\\teht5_output\\browser\\traces\\temp\\b25660c6-b810-4314-b128-3c5d7dd2fd13"}</msg>
+<arg>chromium</arg>
+<arg>headless=No</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Create a new playwright Browser with specified options.</doc>
+<status status="PASS" start="2025-04-11T17:51:33.509611" elapsed="1.416508"/>
+</kw>
+<kw name="New Page" owner="Browser">
+<msg time="2025-04-11T17:51:35.280627" level="INFO">Successfully initialized new page object and opened url: http://localhost:5173/</msg>
+<msg time="2025-04-11T17:51:35.280627" level="INFO">No context was open. New context was automatically opened when this page is created.</msg>
+<arg>http://localhost:5173/</arg>
+<tag>BrowserControl</tag>
+<tag>Setter</tag>
+<doc>Open a new Page.</doc>
+<status status="PASS" start="2025-04-11T17:51:34.929779" elapsed="0.350848"/>
+</kw>
+<kw name="Get Title" owner="Browser">
+<msg time="2025-04-11T17:51:35.306797" level="INFO">Title: 'Terveyspäiväkirja'</msg>
+<arg>==</arg>
+<arg>Terveyspäiväkirja</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns the title of the current page.</doc>
+<status status="PASS" start="2025-04-11T17:51:35.291584" elapsed="0.016205"/>
+</kw>
+<kw name="Type Text" owner="Browser">
+<msg time="2025-04-11T17:51:35.313308" level="INFO">Types the text 'Meitesti' in the given field.</msg>
+<arg>[name="username"]</arg>
+<arg>${Username}</arg>
+<arg>delay=0.1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given ``txt`` into the text field found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:51:35.312307" elapsed="0.937088"/>
+</kw>
+<kw name="Type Secret" owner="Browser">
+<arg>[name="password"]</arg>
+<arg>$Password</arg>
+<arg>delay=0.1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Types the given secret from ``variable_name`` into the text field
+found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:51:36.250395" elapsed="0.897902"/>
+</kw>
+<kw name="Click With Options" owner="Browser">
+<msg time="2025-04-11T17:51:37.150495" level="INFO">Clicks the element '[name="submit"]'.</msg>
+<arg>[name="submit"]</arg>
+<arg>delay=1 s</arg>
+<tag>PageContent</tag>
+<tag>Setter</tag>
+<doc>Simulates mouse click on the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:51:37.149490" elapsed="1.055432"/>
+</kw>
+<kw name="Get Text" owner="Browser">
+<msg time="2025-04-11T17:51:38.357261" level="INFO">Text: 'Päiväkirjamerkinnät'</msg>
+<arg>id=latest-entries</arg>
+<arg>==</arg>
+<arg>Päiväkirjamerkinnät</arg>
+<tag>Assertion</tag>
+<tag>Getter</tag>
+<tag>PageContent</tag>
+<doc>Returns text attribute of the element found by ``selector``.</doc>
+<status status="PASS" start="2025-04-11T17:51:38.205898" elapsed="0.151363"/>
+</kw>
+<msg time="2025-04-11T17:51:38.363431" level="INFO">Set timeout to: 10000</msg>
+<status status="PASS" start="2025-04-11T17:51:33.508596" elapsed="4.849664"/>
+</test>
+<status status="PASS" start="2025-04-11T17:51:33.327622" elapsed="5.037805"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat name="Teht5 Omabrowser Demo" id="s1" pass="1" fail="0" skip="0">Teht5 Omabrowser Demo</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

@@ -1,0 +1,47 @@
+{"level":30,"time":"2025-04-11T14:50:18.711Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Listening on 56257"}
+(node:3484) DeprecationWarning: Calling start() is no longer necessary. It can be safely omitted.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+{"level":30,"time":"2025-04-11T14:50:19.196Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newBrowser"}
+{"level":30,"time":"2025-04-11T14:50:19.449Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Adding browser to stack: chromium, version: 134.0.6998.35"}
+{"level":30,"time":"2025-04-11T14:50:19.450Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newBrowser"}
+{"level":30,"time":"2025-04-11T14:50:19.449Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Adding 0 contexts to browser"}
+{"level":30,"time":"2025-04-11T14:50:19.456Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method newPage"}
+{"level":30,"time":"2025-04-11T14:50:19.457Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"currentBrowser: [object Object]"}
+{"level":30,"time":"2025-04-11T14:50:19.484Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active context"}
+{"level":30,"time":"2025-04-11T14:50:19.705Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Video path: undefined"}
+{"level":30,"time":"2025-04-11T14:50:19.705Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Changed active page"}
+{"level":30,"time":"2025-04-11T14:50:19.822Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method newPage"}
+{"level":30,"time":"2025-04-11T14:50:19.843Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:19.843Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"username\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:20.762Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:20.765Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:20.766Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"password\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:21.660Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:21.666Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-11T14:50:21.667Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"submit\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:22.697Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-04-11T14:50:22.702Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method getText"}
+{"level":30,"time":"2025-04-11T14:50:22.702Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with id=latest-entries in page."}
+{"level":30,"time":"2025-04-11T14:50:22.872Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Retrieved text for element id=latest-entries containing Päiväkirjamerkinnät"}
+{"level":30,"time":"2025-04-11T14:50:22.872Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method getText"}
+{"level":30,"time":"2025-04-11T14:50:22.876Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-11T14:50:22.877Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with id=add-button in page."}
+{"level":30,"time":"2025-04-11T14:50:22.934Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
+{"level":30,"time":"2025-04-11T14:50:22.942Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:22.943Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"date\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:23.822Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:23.826Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:23.826Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"mood\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:24.601Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.605Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.605Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"weight\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:24.848Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.852Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.852Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"sleep_hours\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:24.974Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.978Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:24.978Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with [name=\"notes\"] in page."}
+{"level":30,"time":"2025-04-11T14:50:26.432Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method typeText"}
+{"level":30,"time":"2025-04-11T14:50:26.436Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Start of node method click"}
+{"level":30,"time":"2025-04-11T14:50:26.436Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"Strict mode is enabled, find Locator with id=diary-submit in page."}
+{"level":30,"time":"2025-04-11T14:50:26.466Z","pid":3484,"hostname":"DESKTOP-AGKHIRV","msg":"End of node method click"}
