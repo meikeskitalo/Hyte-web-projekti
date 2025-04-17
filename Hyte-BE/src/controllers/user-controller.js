@@ -16,9 +16,9 @@ import { customError } from '../middlewares/error-handler.js';
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiSuccess {Object[]} users List of users
- * 
+ *
  * @apiError UnauthorizedError Authentication token was invalid.
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 401 Unauthorized
@@ -41,11 +41,11 @@ const getUsers = async (req, res, next) => {
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiParam {Number} id User ID
- * 
+ *
  * @apiSuccess {Object} user User details
- * 
+ *
  * @apiError NotFoundError User not found
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
@@ -80,13 +80,13 @@ const getUserById = async (req, res, next) => {
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiBody {String} username Username
  * @apiBody {String} password Password
  * @apiBody {String} email Email
- * 
+ *
  * @apiSuccess {String} message Result of the request
- * 
+ *
  * @apiError ValidationError Validation failed
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 400 Bad Request
@@ -124,15 +124,15 @@ const addUser = async (req, res, next) => {
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiParam {Number} id User ID
- * 
+ *
  * @apiBody {String} username Username
  * @apiBody {String} password Password
  * @apiBody {String} email Email
- * 
+ *
  * @apiSuccess {String} message Result of the request
- * 
+ *
  * @apiError NotFoundError User not found
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
@@ -142,7 +142,7 @@ const addUser = async (req, res, next) => {
  */
 const editUser = (req, res) => {
   console.log('editUser request body', req.body);
-  const user = users.find((user) => user.id == req.params.id);
+  const user = users.find((user) => user.id == req.user.user_id);
   if (user) {
     user.username = req.body.username;
     user.password = req.body.password;
@@ -160,13 +160,13 @@ const editUser = (req, res) => {
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiBody {String} username Username
  * @apiBody {String} password Password
  * @apiBody {String} email Email
- * 
+ *
  * @apiSuccess {String} message Result of the request
- * 
+ *
  * @apiError ValidationError Validation failed
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 400 Bad Request
@@ -204,11 +204,11 @@ const editUserByUserId = async (req, res, next) => {
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiParam {Number} id User ID
- * 
+ *
  * @apiSuccess {String} message Result of the request
- * 
+ *
  * @apiError NotFoundError User not found
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 404 Not Found
