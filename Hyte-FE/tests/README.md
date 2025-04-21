@@ -1,5 +1,6 @@
 # Testaus – Viikkotehtävät
 
+
 ## Viikko 1
 
 ### Asennukset
@@ -27,6 +28,9 @@ Tehtävät 2, 3 ja 4 tehty.
 
 Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla.
 
+- [Robot-testitiedosto](frontend/teht2/teht2_omabrowser_demo.robot)
+- [Robot keywords -tiedosto](frontend/teht2/teht2_omakeywords.robot)
+
 ##### Testien tulokset:
 
 - [Raportti](frontend/outputs/teht2_output/report.html)
@@ -36,6 +40,9 @@ Testikirjautuminen terveyspäiväkirjaan Robot Browser -frameworkilla.
 
 Web-form -[testisivun](https://www.selenium.dev/selenium/web/web-form.html) eri kenttien muokkausta Robot Browser -frameworkilla
 
+- [Robot-testitiedosto](frontend/teht3/teht3_browser_demo.robot)
+- [Robot keywords -tiedosto](frontend/teht3/teht3_Keywords.robot)
+
 ##### Testien tulokset:
 
 - [Raportti](frontend/outputs/teht3_output/report.html)
@@ -44,6 +51,9 @@ Web-form -[testisivun](https://www.selenium.dev/selenium/web/web-form.html) eri 
 #### Tehtävä 4
 
 Uuden päiväkirjamerkinnän lisäys terveyspäiväkirjaan Robot Browser -frameworkilla
+
+- [Robot-testitiedosto](frontend/teht4/teht4_omabrowser_demo.robot)
+- [Robot keywords -tiedosto](frontend/teht4/teht4_omakeywords.robot)
 
 ##### Testien tulokset:
 
@@ -61,6 +71,9 @@ Tehtävät 5 ja 6 tehty.
 Tehty kirjautumistesti terveyspäiväkirjasovellukselle, joka käyttää .env-tiedostoon piilotettuja
 käyttäjätunnusta ja salasanaa.
 
+- [Robot-testitiedosto](frontend/teht5/teht5_omabrowser_demo.robot)
+- [load_env.py-tiedosto](frontend/teht5/load_env.py)
+
 ##### Testien tulokset:
 
 - [Raportti](frontend/outputs/teht5_output/report.html)
@@ -69,6 +82,8 @@ käyttäjätunnusta ja salasanaa.
 #### Tehtävä 6
 
 Lisätty kirjautumistestiin salasanan ja käyttäjätunnuksen kryptaus käyttäen CryptoLibrarya.
+
+- [Robot-testitiedosto](frontend/teht6/teht6_omabrowser_demo.robot)
 
 ##### Testien tulokset:
 
@@ -87,4 +102,21 @@ Muokattu rakennetta niin, että tulosteet menevät outputs-kansiossa omiin "teht
 
 #### Tehtävä 8
 
-Tehty github.io sivu osoitteeseen: https://meikeskitalo.github.io/Hyte-web-projekti/Hyte-FE/tests/
+Tehty github.io sivu osoitteeseen: [https://meikeskitalo.github.io/Hyte-web-projekti/Hyte-FE/tests/](https://meikeskitalo.github.io/Hyte-web-projekti/Hyte-FE/tests/)
+
+## Viikko 5
+
+#### Tehtävä 9
+
+Tehty testit, joilla testataan taustapalvelimen toimintaa.
+
+- [Robot-testitiedosto](../../Hyte-BE/test/robot-test-requests.robot)
+
+##### Testien tulokset:
+
+- [Raportti](../../Hyte-BE/test/output/report.html)
+- [Lokitiedosto](../../Hyte-BE/test/output/log.html)
+
+#### Tehtävä 10
+
+Kaikki tehtävät dokumentoitu päiväkirjasovelluksen GitHub-kansioon käyttäen Markdown-tiedostoja.
