@@ -25,9 +25,9 @@ const userRouter = express.Router();
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiSuccess {Object[]} users List of users
- * 
+ *
  * @apiError UnauthorizedError Authentication token was invalid.
  * @apiErrorExample Error-Response:
  *     HTTP/1.1 401 Unauthorized
@@ -45,13 +45,13 @@ userRouter
    * @apiPermission token
    *
    * @apiHeader {String} Authorization Bearer token.
-   * 
+   *
    * @apiBody {String} username Username
    * @apiBody {String} password Password
    * @apiBody {String} email Email
-   * 
+   *
    * @apiSuccess {String} message Result of the request
-   * 
+   *
    * @apiError ValidationError Validation failed
    * @apiErrorExample Error-Response:
    *     HTTP/1.1 400 Bad Request
@@ -74,13 +74,13 @@ userRouter
    * @apiPermission token
    *
    * @apiHeader {String} Authorization Bearer token.
-   * 
+   *
    * @apiBody {String} username Username
    * @apiBody {String} password Password
    * @apiBody {String} email Email
-   * 
+   *
    * @apiSuccess {String} message Result of the request
-   * 
+   *
    * @apiError ValidationError Validation failed
    * @apiErrorExample Error-Response:
    *     HTTP/1.1 400 Bad Request
@@ -104,11 +104,11 @@ userRouter
  * @apiPermission token
  *
  * @apiHeader {String} Authorization Bearer token.
- * 
+ *
  * @apiParam {Number} id User ID
- * 
+ *
  * @apiSuccess {Object} user User details
- * 
+ *
  * @apiError NotFoundError User not found
  * @apiErrorExample Error-Response:
    *     HTTP/1.1 404 Not Found
@@ -125,15 +125,15 @@ userRouter.route('/:id')
    * @apiPermission token
    *
    * @apiHeader {String} Authorization Bearer token.
-   * 
+   *
    * @apiParam {Number} id User ID
-   * 
+   *
    * @apiBody {String} username Username
    * @apiBody {String} password Password
    * @apiBody {String} email Email
-   * 
+   *
    * @apiSuccess {String} message Result of the request
-   * 
+   *
    * @apiError NotFoundError User not found
    * @apiErrorExample Error-Response:
    *     HTTP/1.1 404 Not Found
@@ -141,7 +141,7 @@ userRouter.route('/:id')
    *       "message": "User not found"
    *     }
    */
-  .put(editUser)
+  .put(validationErrorHandler, authenticateToken, editUser)
   /**
    * @api {delete} /api/users/:id Delete user by ID
    * @apiName DeleteUser
@@ -149,11 +149,11 @@ userRouter.route('/:id')
    * @apiPermission token
    *
    * @apiHeader {String} Authorization Bearer token.
-   * 
+   *
    * @apiParam {Number} id User ID
-   * 
+   *
    * @apiSuccess {String} message Result of the request
-   * 
+   *
    * @apiError NotFoundError User not found
    * @apiErrorExample Error-Response:
    *     HTTP/1.1 404 Not Found

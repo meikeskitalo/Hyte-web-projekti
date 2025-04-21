@@ -140,16 +140,26 @@ const addUser = async (req, res, next) => {
  *       "message": "User not found"
  *     }
  */
-const editUser = (req, res) => {
+const editUser = async (req, res, next) => {
   console.log('editUser request body', req.body);
-  const user = users.find((user) => user.id == req.user.user_id);
-  if (user) {
-    user.username = req.body.username;
-    user.password = req.body.password;
-    user.email = req.body.email;
-    res.json({ message: 'User updated.' });
-  } else {
-    res.status(404).json({ message: 'User not found' });
+  const userId = req.params.id;
+  const { username, password, email } = req.body;
+  if (username && password && email) {
+    const salt = await bcrypt.genSalt(10);
+    const hashedPassword = await bcrypt.hash(password, salt);
+    const updatedUser = {
+      username,
+      password: hashedPassword,
+      email,
+    };
+
+    try {
+      console.log('editUserByUserId', userId, updatedUser);
+      const result = await modifyUserByUserId(userId, updatedUser);
+      return res.status(200).json({ message: 'User updated: ' + result });
+    } catch (error) {
+      return next(customError(error.message, 500));
+    }
   }
 };
 
